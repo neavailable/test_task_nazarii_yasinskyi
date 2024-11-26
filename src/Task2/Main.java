@@ -41,8 +41,7 @@ public class Main
         int numberOfTests = InputHandling.ProvideAndCheckNaturalNumber(scanner);
 
         // Run the main loop for the specified number of test cases
-        for (int i = 0; i < numberOfTests; i++)
-            RunMainLoop(scanner);
+        for (int i = 0; i < numberOfTests; i++) RunMainLoop(scanner);
 
         scanner.close();  // Close the scanner after usage
     }
